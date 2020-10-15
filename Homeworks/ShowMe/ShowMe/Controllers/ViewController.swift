@@ -23,5 +23,11 @@ class ViewController: UIViewController {
         let messageView = segue.destination as! MessageViewController
         messageView.messageData = textField.text;
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
 }
 
