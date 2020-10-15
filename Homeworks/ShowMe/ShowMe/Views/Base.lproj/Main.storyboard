@@ -31,6 +31,7 @@
                                 <rect key="frame" x="169" y="204" width="76" height="42"/>
                                 <state key="normal" title="Show Me"/>
                                 <connections>
+                                    <action selector="showMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lg3-18-uLp"/>
                                     <segue destination="SRX-Z6-YTd" kind="show" id="RKR-xf-dEz"/>
                                 </connections>
                             </button>
@@ -107,7 +108,6 @@
         <!--Navigation Controller-->
         <scene sceneID="tc4-19-ZTs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wSn-IG-hTv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sap-WN-XSQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZL7-aV-oTC">
@@ -119,6 +119,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tQj-qg-6PV"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSn-IG-hTv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>

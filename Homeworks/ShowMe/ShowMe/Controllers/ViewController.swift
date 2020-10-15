@@ -11,6 +11,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var textField: UITextField!
     
+    @IBAction func showMe(_ sender: UIButton) {
+        NSLog("User Wrote: %@", textField.text!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -19,7 +23,5 @@ class ViewController: UIViewController {
         let messageView = segue.destination as! MessageViewController
         messageView.messageData = textField.text;
     }
-
-
 }
 
