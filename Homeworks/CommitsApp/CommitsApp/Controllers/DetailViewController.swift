@@ -21,5 +21,4 @@ class DetailViewController: UIViewController {
         //#selector(showAuthorCommits))
         }
     }
-
 }

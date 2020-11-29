@@ -17,7 +17,8 @@ class ComposeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        postButton.layer.cornerRadius = 5.0
+        tweetContent.layer.cornerRadius = 5.0
     }
     
     @IBAction func dismissView(_ sender: UIButton) {
