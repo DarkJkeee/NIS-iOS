@@ -17,7 +17,7 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Filter", style: .plain, target: self, action: #selector(changeFilter))
         
         container = NSPersistentContainer(name: "CommitsApp")
         
@@ -96,7 +96,7 @@ class ViewController: UITableViewController {
         }
     }
     
-    func changeFilter() {
+    @objc func changeFilter() {
         let ac = UIAlertController(title: "Filter commits...", message: nil,
     preferredStyle: .actionSheet)
         
