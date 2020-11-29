@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A2C1F782574252900967F31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A87A6F925731AC30082A897 /* LaunchScreen.storyboard */,
+				2A87A6F425731AC10082A897 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2A87A6E225731AC10082A897 = {
 			isa = PBXGroup;
 			children = (
@@ -62,15 +71,15 @@
 		2A87A6ED25731AC10082A897 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A2C1F782574252900967F31 /* Views */,
 				2A87A707257324030082A897 /* Supporting Files */,
-				2A87A703257321A00082A897 /* View Controllers */,
-				2A87A6F425731AC10082A897 /* Main.storyboard */,
+				2A87A703257321A00082A897 /* Controllers */,
 				2A87A6FC25731AC30082A897 /* Info.plist */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
 		};
-		2A87A703257321A00082A897 /* View Controllers */ = {
+		2A87A703257321A00082A897 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				2A87A708257324270082A897 /* TweetViewController.swift */,
@@ -78,14 +87,13 @@
 				2A87A70F2573253F0082A897 /* AccountsViewController.swift */,
 				2A87A7132573254F0082A897 /* FeedViewController.swift */,
 			);
-			path = "View Controllers";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		2A87A707257324030082A897 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				2A87A6F725731AC30082A897 /* Assets.xcassets */,
-				2A87A6F925731AC30082A897 /* LaunchScreen.storyboard */,
 				2A87A6F025731AC10082A897 /* SceneDelegate.swift */,
 				2A87A6EE25731AC10082A897 /* AppDelegate.swift */,
 			);
