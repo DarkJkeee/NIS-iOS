@@ -55,7 +55,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     private func requestQuote(for symbol: String) {
-        let dataTask = URLSession.shared.dataTask(with: URL(string: "https://iextrading.com/stock/\(symbol)/quote)")!) { data, response, error in
+        let dataTask = URLSession.shared.dataTask(with: URL(string: "https://nosecurityshares.azurewebsites.net/Stonks/\(symbol)")!) { data, response, error in
             guard
                 error == nil,
                 (response as? HTTPURLResponse)?.statusCode == 200,
