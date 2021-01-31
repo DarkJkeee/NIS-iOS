@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "censored-stamp-red-grunge-texture-260nw-1389676052.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -13,6 +13,7 @@
 		2A758CA425BE032600C7EE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A758CA225BE032600C7EE6E /* Main.storyboard */; };
 		2A758CA625BE032700C7EE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A758CA525BE032700C7EE6E /* Assets.xcassets */; };
 		2A758CA925BE032700C7EE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A758CA725BE032700C7EE6E /* LaunchScreen.storyboard */; };
+		2AA76D5625C6C6FF0002D8CC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA76D5525C6C6FF0002D8CC /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2A758CA525BE032700C7EE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A758CA825BE032700C7EE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A758CAA25BE032700C7EE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA76D5525C6C6FF0002D8CC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2A758CA525BE032700C7EE6E /* Assets.xcassets */,
 				2A758C9E25BE032600C7EE6E /* SceneDelegate.swift */,
 				2A758C9C25BE032600C7EE6E /* AppDelegate.swift */,
+				2AA76D5525C6C6FF0002D8CC /* CustomButton.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA76D5625C6C6FF0002D8CC /* CustomButton.swift in Sources */,
 				2A758CA125BE032600C7EE6E /* LoginViewController.swift in Sources */,
 				2A758C9D25BE032600C7EE6E /* AppDelegate.swift in Sources */,
 				2A758C9F25BE032600C7EE6E /* SceneDelegate.swift in Sources */,
