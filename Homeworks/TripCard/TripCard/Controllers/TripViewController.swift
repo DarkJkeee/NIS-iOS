@@ -1,8 +1,8 @@
 //
-//  TripViewController.swift
+//  ViewController.swift
 //  TripCard
 //
-//  Created by Глеб Бурштейн on 24.01.2021.
+//  Created by Глеб Бурштейн on 31.01.2021.
 //
 
 import UIKit
@@ -17,9 +17,10 @@ class TripViewController: UIViewController, UICollectionViewDelegate, UICollecti
         cell.cityLabel.text = trips[indexPath.row].city
         cell.countryLabel.text = trips[indexPath.row].country
         cell.imageView.image = trips[indexPath.row].featuredImage
-        cell.priceLabel.text = "\(trips[indexPath.row].price)"
+        cell.priceLabel.text = "$\(String(trips[indexPath.row].price))"
         cell.totalDaysLabel.text = "\(trips[indexPath.row].totalDays) days"
         cell.isLiked = trips[indexPath.row].isLiked
+
         cell.layer.cornerRadius = 4.0
         return cell
     }
@@ -29,22 +30,18 @@ class TripViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     
-    @IBOutlet weak var backgroundImageView: UIImageView!
-    @IBOutlet weak var collectionView: UICollectionView!
     
-    private var trips = [Trip(tripId: "Paris001", city: "Paris", country: "France",
-                              featuredImage: UIImage(named: "paris"), price: 2000, totalDays: 5, isLiked: false),
-                         Trip(tripId: "Rome001", city: "Rome", country: "Italy", featuredImage:
-                                UIImage(named: "rome"), price: 800, totalDays: 3, isLiked: false),
-                         Trip(tripId: "Istanbul001", city: "Istanbul", country: "Turkey",
-                              featuredImage: UIImage(named: "istanbul"), price: 2200, totalDays: 10, isLiked: false), ]
-    
+    private var trips = [Trip(tripId: "Paris001", city: "Paris", country: "France", featuredImage: UIImage(named: "paris"), price: 2000, totalDays: 5, isLiked: false),
+                         Trip(tripId: "Rome001", city: "Rome", country: "Italy", featuredImage: UIImage(named: "rome"), price: 800, totalDays: 3, isLiked: false),
+                         Trip(tripId: "Istanbul001", city: "Istanbul", country: "Turkey", featuredImage: UIImage(named: "istanbul"), price: 2200, totalDays: 10, isLiked: false),]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = UIColor.clear
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    
 }
 

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TripCard
 //
-//  Created by Глеб Бурштейн on 24.01.2021.
+//  Created by Глеб Бурштейн on 31.01.2021.
 //
 
 import UIKit

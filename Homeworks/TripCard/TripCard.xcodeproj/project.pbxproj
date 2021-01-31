@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A758C6D25BCD65800C7EE6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A758C6C25BCD65800C7EE6E /* AppDelegate.swift */; };
-		2A758C6F25BCD65800C7EE6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A758C6E25BCD65800C7EE6E /* SceneDelegate.swift */; };
-		2A758C7125BCD65800C7EE6E /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A758C7025BCD65800C7EE6E /* TripViewController.swift */; };
-		2A758C7425BCD65800C7EE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A758C7225BCD65800C7EE6E /* Main.storyboard */; };
-		2A758C7625BCD65900C7EE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A758C7525BCD65900C7EE6E /* Assets.xcassets */; };
-		2A758C7925BCD65900C7EE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A758C7725BCD65900C7EE6E /* LaunchScreen.storyboard */; };
-		2A758C8825BD012C00C7EE6E /* TripCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A758C8725BD012C00C7EE6E /* TripCollectionViewCell.swift */; };
-		2A758C8C25BD056B00C7EE6E /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A758C8B25BD056B00C7EE6E /* Trip.swift */; };
+		2A9ED4DC25C7405D001536EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ED4DB25C7405D001536EE /* AppDelegate.swift */; };
+		2A9ED4DE25C7405D001536EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ED4DD25C7405D001536EE /* SceneDelegate.swift */; };
+		2A9ED4E025C7405D001536EE /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ED4DF25C7405D001536EE /* TripViewController.swift */; };
+		2A9ED4E325C7405E001536EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ED4E125C7405E001536EE /* Main.storyboard */; };
+		2A9ED4E525C7405E001536EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ED4E425C7405E001536EE /* Assets.xcassets */; };
+		2A9ED4E825C7405E001536EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ED4E625C7405E001536EE /* LaunchScreen.storyboard */; };
+		2AE06D1325C74621003CBD30 /* TripCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE06D1225C74621003CBD30 /* TripCollectionViewCell.swift */; };
+		2AE06D1725C746D7003CBD30 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE06D1625C746D7003CBD30 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A758C6925BCD65800C7EE6E /* TripCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A758C6C25BCD65800C7EE6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A758C6E25BCD65800C7EE6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A758C7025BCD65800C7EE6E /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
-		2A758C7325BCD65800C7EE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A758C7525BCD65900C7EE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A758C7825BCD65900C7EE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2A758C7A25BCD65900C7EE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A758C8725BD012C00C7EE6E /* TripCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCollectionViewCell.swift; sourceTree = "<group>"; };
-		2A758C8B25BD056B00C7EE6E /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		2A9ED4D825C7405D001536EE /* TripCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9ED4DB25C7405D001536EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A9ED4DD25C7405D001536EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A9ED4DF25C7405D001536EE /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
+		2A9ED4E225C7405E001536EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9ED4E425C7405E001536EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9ED4E725C7405E001536EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9ED4E925C7405E001536EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE06D1225C74621003CBD30 /* TripCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCollectionViewCell.swift; sourceTree = "<group>"; };
+		2AE06D1625C746D7003CBD30 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A758C6625BCD65800C7EE6E /* Frameworks */ = {
+		2A9ED4D525C7405D001536EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,66 +41,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A758C6025BCD65800C7EE6E = {
+		2A9ED4CF25C7405D001536EE = {
 			isa = PBXGroup;
 			children = (
-				2A758C6B25BCD65800C7EE6E /* TripCard */,
-				2A758C6A25BCD65800C7EE6E /* Products */,
+				2A9ED4DA25C7405D001536EE /* TripCard */,
+				2A9ED4D925C7405D001536EE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A758C6A25BCD65800C7EE6E /* Products */ = {
+		2A9ED4D925C7405D001536EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A758C6925BCD65800C7EE6E /* TripCard.app */,
+				2A9ED4D825C7405D001536EE /* TripCard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A758C6B25BCD65800C7EE6E /* TripCard */ = {
+		2A9ED4DA25C7405D001536EE /* TripCard */ = {
 			isa = PBXGroup;
 			children = (
-				2A758C8A25BD055800C7EE6E /* Models */,
-				2A758C8525BCE20500C7EE6E /* Supporting Files */,
-				2A758C8225BCE1E300C7EE6E /* Controllers */,
-				2A758C8425BCE1F900C7EE6E /* Views */,
-				2A758C7A25BCD65900C7EE6E /* Info.plist */,
+				2AE06D1525C746CC003CBD30 /* Models */,
+				2A9ED4F025C74067001536EE /* SupportingFiles */,
+				2A9ED4F325C74077001536EE /* Controllers */,
+				2A9ED4F525C7407E001536EE /* Views */,
+				2A9ED4E925C7405E001536EE /* Info.plist */,
 			);
 			path = TripCard;
 			sourceTree = "<group>";
 		};
-		2A758C8225BCE1E300C7EE6E /* Controllers */ = {
+		2A9ED4F025C74067001536EE /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2A758C7025BCD65800C7EE6E /* TripViewController.swift */,
-				2A758C8725BD012C00C7EE6E /* TripCollectionViewCell.swift */,
+				2A9ED4DB25C7405D001536EE /* AppDelegate.swift */,
+				2A9ED4DD25C7405D001536EE /* SceneDelegate.swift */,
+				2A9ED4E425C7405E001536EE /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2A9ED4F325C74077001536EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ED4DF25C7405D001536EE /* TripViewController.swift */,
+				2AE06D1225C74621003CBD30 /* TripCollectionViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		2A758C8425BCE1F900C7EE6E /* Views */ = {
+		2A9ED4F525C7407E001536EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2A758C7225BCD65800C7EE6E /* Main.storyboard */,
-				2A758C7725BCD65900C7EE6E /* LaunchScreen.storyboard */,
+				2A9ED4E125C7405E001536EE /* Main.storyboard */,
+				2A9ED4E625C7405E001536EE /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2A758C8525BCE20500C7EE6E /* Supporting Files */ = {
+		2AE06D1525C746CC003CBD30 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2A758C6C25BCD65800C7EE6E /* AppDelegate.swift */,
-				2A758C6E25BCD65800C7EE6E /* SceneDelegate.swift */,
-				2A758C7525BCD65900C7EE6E /* Assets.xcassets */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2A758C8A25BD055800C7EE6E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2A758C8B25BD056B00C7EE6E /* Trip.swift */,
+				2AE06D1625C746D7003CBD30 /* Trip.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,13 +108,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A758C6825BCD65800C7EE6E /* TripCard */ = {
+		2A9ED4D725C7405D001536EE /* TripCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A758C7D25BCD65900C7EE6E /* Build configuration list for PBXNativeTarget "TripCard" */;
+			buildConfigurationList = 2A9ED4EC25C7405E001536EE /* Build configuration list for PBXNativeTarget "TripCard" */;
 			buildPhases = (
-				2A758C6525BCD65800C7EE6E /* Sources */,
-				2A758C6625BCD65800C7EE6E /* Frameworks */,
-				2A758C6725BCD65800C7EE6E /* Resources */,
+				2A9ED4D425C7405D001536EE /* Sources */,
+				2A9ED4D525C7405D001536EE /* Frameworks */,
+				2A9ED4D625C7405D001536EE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -122,24 +122,24 @@
 			);
 			name = TripCard;
 			productName = TripCard;
-			productReference = 2A758C6925BCD65800C7EE6E /* TripCard.app */;
+			productReference = 2A9ED4D825C7405D001536EE /* TripCard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A758C6125BCD65800C7EE6E /* Project object */ = {
+		2A9ED4D025C7405D001536EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					2A758C6825BCD65800C7EE6E = {
-						CreatedOnToolsVersion = 12.3;
+					2A9ED4D725C7405D001536EE = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 2A758C6425BCD65800C7EE6E /* Build configuration list for PBXProject "TripCard" */;
+			buildConfigurationList = 2A9ED4D325C7405D001536EE /* Build configuration list for PBXProject "TripCard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,57 +147,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 2A758C6025BCD65800C7EE6E;
-			productRefGroup = 2A758C6A25BCD65800C7EE6E /* Products */;
+			mainGroup = 2A9ED4CF25C7405D001536EE;
+			productRefGroup = 2A9ED4D925C7405D001536EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A758C6825BCD65800C7EE6E /* TripCard */,
+				2A9ED4D725C7405D001536EE /* TripCard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A758C6725BCD65800C7EE6E /* Resources */ = {
+		2A9ED4D625C7405D001536EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A758C7925BCD65900C7EE6E /* LaunchScreen.storyboard in Resources */,
-				2A758C7625BCD65900C7EE6E /* Assets.xcassets in Resources */,
-				2A758C7425BCD65800C7EE6E /* Main.storyboard in Resources */,
+				2A9ED4E825C7405E001536EE /* LaunchScreen.storyboard in Resources */,
+				2A9ED4E525C7405E001536EE /* Assets.xcassets in Resources */,
+				2A9ED4E325C7405E001536EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A758C6525BCD65800C7EE6E /* Sources */ = {
+		2A9ED4D425C7405D001536EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A758C8C25BD056B00C7EE6E /* Trip.swift in Sources */,
-				2A758C7125BCD65800C7EE6E /* TripViewController.swift in Sources */,
-				2A758C8825BD012C00C7EE6E /* TripCollectionViewCell.swift in Sources */,
-				2A758C6D25BCD65800C7EE6E /* AppDelegate.swift in Sources */,
-				2A758C6F25BCD65800C7EE6E /* SceneDelegate.swift in Sources */,
+				2AE06D1725C746D7003CBD30 /* Trip.swift in Sources */,
+				2A9ED4E025C7405D001536EE /* TripViewController.swift in Sources */,
+				2AE06D1325C74621003CBD30 /* TripCollectionViewCell.swift in Sources */,
+				2A9ED4DC25C7405D001536EE /* AppDelegate.swift in Sources */,
+				2A9ED4DE25C7405D001536EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2A758C7225BCD65800C7EE6E /* Main.storyboard */ = {
+		2A9ED4E125C7405E001536EE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A758C7325BCD65800C7EE6E /* Base */,
+				2A9ED4E225C7405E001536EE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2A758C7725BCD65900C7EE6E /* LaunchScreen.storyboard */ = {
+		2A9ED4E625C7405E001536EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A758C7825BCD65900C7EE6E /* Base */,
+				2A9ED4E725C7405E001536EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2A758C7B25BCD65900C7EE6E /* Debug */ = {
+		2A9ED4EA25C7405E001536EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -266,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		2A758C7C25BCD65900C7EE6E /* Release */ = {
+		2A9ED4EB25C7405E001536EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +321,7 @@
 			};
 			name = Release;
 		};
-		2A758C7E25BCD65900C7EE6E /* Debug */ = {
+		2A9ED4ED25C7405E001536EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		2A758C7F25BCD65900C7EE6E /* Release */ = {
+		2A9ED4EE25C7405E001536EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -362,25 +362,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A758C6425BCD65800C7EE6E /* Build configuration list for PBXProject "TripCard" */ = {
+		2A9ED4D325C7405D001536EE /* Build configuration list for PBXProject "TripCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A758C7B25BCD65900C7EE6E /* Debug */,
-				2A758C7C25BCD65900C7EE6E /* Release */,
+				2A9ED4EA25C7405E001536EE /* Debug */,
+				2A9ED4EB25C7405E001536EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A758C7D25BCD65900C7EE6E /* Build configuration list for PBXNativeTarget "TripCard" */ = {
+		2A9ED4EC25C7405E001536EE /* Build configuration list for PBXNativeTarget "TripCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A758C7E25BCD65900C7EE6E /* Debug */,
-				2A758C7F25BCD65900C7EE6E /* Release */,
+				2A9ED4ED25C7405E001536EE /* Debug */,
+				2A9ED4EE25C7405E001536EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2A758C6125BCD65800C7EE6E /* Project object */;
+	rootObject = 2A9ED4D025C7405D001536EE /* Project object */;
 }

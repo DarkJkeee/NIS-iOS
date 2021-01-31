@@ -2,7 +2,7 @@
 //  Trip.swift
 //  TripCard
 //
-//  Created by Глеб Бурштейн on 24.01.2021.
+//  Created by Глеб Бурштейн on 31.01.2021.
 //
 
 import Foundation
@@ -17,8 +17,7 @@ struct Trip {
     var totalDays: Int = 0
     var isLiked = false
     
-    init(tripId: String, city: String, country: String, featuredImage:
-    UIImage!, price: Int, totalDays: Int, isLiked: Bool) {
+    init(tripId: String, city: String, country: String, featuredImage: UIImage!, price: Int, totalDays: Int, isLiked: Bool) {
         self.tripId = tripId
         self.city = city
         self.country = country
