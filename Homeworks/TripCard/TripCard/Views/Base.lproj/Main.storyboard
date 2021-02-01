@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,27 +14,27 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TripViewController" customModule="TripCard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Popular Destinations" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ci-M6-YYh">
-                                <rect key="frame" x="20" y="44" width="120" height="54"/>
+                                <rect key="frame" x="20" y="0.0" width="229.5" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Awc-CT-Ver"/>
-                                    <constraint firstAttribute="width" constant="120" id="Hpr-HQ-EkS"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Hpr-HQ-EkS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COPYRIGHT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WE-pR-G5e">
-                                <rect key="frame" x="20" y="841" width="95" height="21"/>
+                                <rect key="frame" x="20" y="646" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="guW-TX-j8q">
-                                <rect key="frame" x="20" y="233" width="374" height="430"/>
+                                <rect key="frame" x="20" y="141" width="335" height="447"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="20" minimumInteritemSpacing="10" id="2Pr-R4-41q">
                                     <size key="itemSize" width="250" height="380"/>
@@ -44,7 +44,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="cMK-Fp-Bfc" customClass="TripCollectionViewCell" customModule="TripCard" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="25" width="250" height="380"/>
+                                        <rect key="frame" x="20" y="33.5" width="250" height="380"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="RZc-cr-rTc">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="380"/>
@@ -138,13 +138,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="guW-TX-j8q" firstAttribute="top" secondItem="9Ci-M6-YYh" secondAttribute="bottom" constant="135" id="1Ia-Vg-mms"/>
-                            <constraint firstItem="guW-TX-j8q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6ln-N5-Naz"/>
+                            <constraint firstItem="guW-TX-j8q" firstAttribute="top" secondItem="9Ci-M6-YYh" secondAttribute="bottom" constant="87" id="1Ia-Vg-mms"/>
+                            <constraint firstItem="guW-TX-j8q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="31" id="6ln-N5-Naz"/>
                             <constraint firstItem="9Ci-M6-YYh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8rs-DA-hzW"/>
                             <constraint firstItem="9Ci-M6-YYh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EJp-TM-mm3"/>
                             <constraint firstItem="guW-TX-j8q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JIk-2r-Vun"/>
                             <constraint firstItem="7WE-pR-G5e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="R0S-Um-Tzl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7WE-pR-G5e" secondAttribute="trailing" symbolic="YES" id="YZs-s0-44m"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="guW-TX-j8q" secondAttribute="trailing" constant="20" id="gDx-xj-F3O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9Ci-M6-YYh" secondAttribute="trailing" symbolic="YES" id="l8t-Ll-9xU"/>
                             <constraint firstItem="guW-TX-j8q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rcp-5Y-Rsc"/>
                             <constraint firstItem="7WE-pR-G5e" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zNL-4a-QFx"/>
                         </constraints>
@@ -155,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+            <point key="canvasLocation" x="18.399999999999999" y="93.103448275862078"/>
         </scene>
     </scenes>
     <resources>
