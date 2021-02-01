@@ -74,14 +74,17 @@
                                                 <view clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Dy-16-pUw">
                                                     <rect key="frame" x="0.0" y="310" width="250" height="70"/>
                                                     <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOm-4H-dFI">
-                                                            <rect key="frame" x="90.5" y="7" width="69" height="56"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOm-4H-dFI">
+                                                            <rect key="frame" x="90.5" y="8.5" width="69" height="53.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="69" id="VD7-9A-a5G"/>
                                                                 <constraint firstAttribute="height" constant="56" id="xq3-JU-RDh"/>
                                                             </constraints>
                                                             <color key="tintColor" red="0.84869462250000005" green="0.29457360510000002" blue="0.17637509109999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                            <state key="normal" image="heart" catalog="system"/>
+                                                            <state key="normal" backgroundImage="heart" catalog="system"/>
+                                                            <connections>
+                                                                <action selector="likeButtonTapped:" destination="cMK-Fp-Bfc" eventType="touchUpInside" id="Y4o-5T-wRg"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <constraints>

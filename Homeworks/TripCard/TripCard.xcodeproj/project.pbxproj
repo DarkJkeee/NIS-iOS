@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2AE06D1525C746CC003CBD30 /* Models */,
-				2A9ED4F025C74067001536EE /* SupportingFiles */,
+				2A9ED4F025C74067001536EE /* Supporting Files */,
 				2A9ED4F325C74077001536EE /* Controllers */,
 				2A9ED4F525C7407E001536EE /* Views */,
 				2A9ED4E925C7405E001536EE /* Info.plist */,
@@ -69,14 +69,14 @@
 			path = TripCard;
 			sourceTree = "<group>";
 		};
-		2A9ED4F025C74067001536EE /* SupportingFiles */ = {
+		2A9ED4F025C74067001536EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				2A9ED4DB25C7405D001536EE /* AppDelegate.swift */,
 				2A9ED4DD25C7405D001536EE /* SceneDelegate.swift */,
 				2A9ED4E425C7405E001536EE /* Assets.xcassets */,
 			);
-			path = SupportingFiles;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2A9ED4F325C74077001536EE /* Controllers */ = {
