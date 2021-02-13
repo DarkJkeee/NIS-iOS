@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A146DC725D75B4E00235974 /* Stickers StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2A146DC625D75B4E00235974 /* Stickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A146DCB25D75B4E00235974 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2A146DCA25D75B4E00235974 /* Stickers.xcstickers */; };
+		2A146DCC25D75B4E00235974 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2A146DCA25D75B4E00235974 /* Stickers.xcstickers */; };
 		2AB926E52549D975000B51D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB926E42549D975000B51D2 /* AppDelegate.swift */; };
 		2AB926E72549D975000B51D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB926E62549D975000B51D2 /* SceneDelegate.swift */; };
 		2AB926E92549D975000B51D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB926E82549D975000B51D2 /* ViewController.swift */; };
@@ -15,7 +18,34 @@
 		2AB926F12549D977000B51D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB926EF2549D977000B51D2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2A146DC825D75B4E00235974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB926D92549D975000B51D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A146DC525D75B4E00235974;
+			remoteInfo = "Stickers StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A146DCF25D75B4E00235974 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A146DC725D75B4E00235974 /* Stickers StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2A146DC325D75B4E00235974 /* Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A146DC625D75B4E00235974 /* Stickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A146DCA25D75B4E00235974 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
 		2AB926E12549D975000B51D2 /* InTouchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTouchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB926E42549D975000B51D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AB926E62549D975000B51D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +70,7 @@
 		2AB926D82549D975000B51D2 = {
 			isa = PBXGroup;
 			children = (
+				2A146DCA25D75B4E00235974 /* Stickers.xcstickers */,
 				2AB926E32549D975000B51D2 /* InTouchApp */,
 				2AB926E22549D975000B51D2 /* Products */,
 			);
@@ -49,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				2AB926E12549D975000B51D2 /* InTouchApp.app */,
+				2A146DC325D75B4E00235974 /* Stickers.app */,
+				2A146DC625D75B4E00235974 /* Stickers StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +111,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2A146DC225D75B4E00235974 /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A146DD325D75B4E00235974 /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				2A146DC125D75B4E00235974 /* Resources */,
+				2A146DCF25D75B4E00235974 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A146DC925D75B4E00235974 /* PBXTargetDependency */,
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = 2A146DC325D75B4E00235974 /* Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		2A146DC525D75B4E00235974 /* Stickers StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A146DD225D75B4E00235974 /* Build configuration list for PBXNativeTarget "Stickers StickerPackExtension" */;
+			buildPhases = (
+				2A146DC425D75B4E00235974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stickers StickerPackExtension";
+			productName = "Stickers StickerPackExtension";
+			productReference = 2A146DC625D75B4E00235974 /* Stickers StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		2AB926E02549D975000B51D2 /* InTouchApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AB926F52549D977000B51D2 /* Build configuration list for PBXNativeTarget "InTouchApp" */;
@@ -104,6 +169,12 @@
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					2A146DC225D75B4E00235974 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2A146DC525D75B4E00235974 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					2AB926E02549D975000B51D2 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -123,11 +194,29 @@
 			projectRoot = "";
 			targets = (
 				2AB926E02549D975000B51D2 /* InTouchApp */,
+				2A146DC225D75B4E00235974 /* Stickers */,
+				2A146DC525D75B4E00235974 /* Stickers StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A146DC125D75B4E00235974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A146DCC25D75B4E00235974 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A146DC425D75B4E00235974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A146DCB25D75B4E00235974 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AB926DF2549D975000B51D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +242,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2A146DC925D75B4E00235974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A146DC525D75B4E00235974 /* Stickers StickerPackExtension */;
+			targetProxy = 2A146DC825D75B4E00235974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		2AB926EA2549D975000B51D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -173,6 +270,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2A146DCD25D75B4E00235974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXY5F8F32W;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burstein.Stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A146DCE25D75B4E00235974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXY5F8F32W;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burstein.Stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A146DD025D75B4E00235974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXY5F8F32W;
+				INFOPLIST_FILE = "Stickers StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burstein.Stickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A146DD125D75B4E00235974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXY5F8F32W;
+				INFOPLIST_FILE = "Stickers StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burstein.Stickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2AB926F32549D977000B51D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,6 +485,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A146DD225D75B4E00235974 /* Build configuration list for PBXNativeTarget "Stickers StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A146DD025D75B4E00235974 /* Debug */,
+				2A146DD125D75B4E00235974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A146DD325D75B4E00235974 /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A146DCD25D75B4E00235974 /* Debug */,
+				2A146DCE25D75B4E00235974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2AB926DC2549D975000B51D2 /* Build configuration list for PBXProject "InTouchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
